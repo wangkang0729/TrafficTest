@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<classes>
+  <class>
+    <id>1</id>
+    <name>选择题</name>
+    <reference>false</reference>
+  </class>
+  <class>
+    <id>2</id>
+    <name>科目三</name>
+    <reference>False</reference>
+  </class>
+  <class>
+    <id>3</id>
+    <name>科目三</name>
+    <reference>False</reference>
+  </class>
+  <class>
+    <id>5</id>
+    <name>科目三</name>
+    <reference>False</reference>
+  </class>
+</classes>

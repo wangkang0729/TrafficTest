@@ -1,0 +1,10 @@
+F:\Repo\TrafficExam\DAL\bin\Debug\DAL.dll
+F:\Repo\TrafficExam\DAL\bin\Debug\DAL.pdb
+F:\Repo\TrafficExam\DAL\bin\Debug\Model.dll
+F:\Repo\TrafficExam\DAL\bin\Debug\Tool.dll
+F:\Repo\TrafficExam\DAL\bin\Debug\Model.pdb
+F:\Repo\TrafficExam\DAL\bin\Debug\Tool.pdb
+F:\Repo\TrafficExam\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Repo\TrafficExam\DAL\obj\Debug\DAL.dll
+F:\Repo\TrafficExam\DAL\obj\Debug\DAL.pdb
+F:\Repo\TrafficExam\DAL\bin\Debug\log4net.dll

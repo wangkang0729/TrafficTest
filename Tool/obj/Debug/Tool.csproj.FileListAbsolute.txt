@@ -1,0 +1,5 @@
+F:\Repo\TrafficExam\Tool\bin\Debug\Tool.dll
+F:\Repo\TrafficExam\Tool\bin\Debug\Tool.pdb
+F:\Repo\TrafficExam\Tool\obj\Debug\Tool.csprojResolveAssemblyReference.cache
+F:\Repo\TrafficExam\Tool\obj\Debug\Tool.dll
+F:\Repo\TrafficExam\Tool\obj\Debug\Tool.pdb

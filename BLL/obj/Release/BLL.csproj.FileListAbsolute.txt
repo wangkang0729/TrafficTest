@@ -1,0 +1,12 @@
+F:\Repo\TrafficExam\BLL\bin\Release\BLL.dll
+F:\Repo\TrafficExam\BLL\bin\Release\BLL.pdb
+F:\Repo\TrafficExam\BLL\bin\Release\DAL.dll
+F:\Repo\TrafficExam\BLL\bin\Release\Model.dll
+F:\Repo\TrafficExam\BLL\bin\Release\Tool.dll
+F:\Repo\TrafficExam\BLL\bin\Release\DAL.pdb
+F:\Repo\TrafficExam\BLL\bin\Release\Model.pdb
+F:\Repo\TrafficExam\BLL\bin\Release\Tool.pdb
+F:\Repo\TrafficExam\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+F:\Repo\TrafficExam\BLL\obj\Release\BLL.dll
+F:\Repo\TrafficExam\BLL\obj\Release\BLL.pdb
+F:\Repo\TrafficExam\BLL\bin\Release\log4net.dll

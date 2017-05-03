@@ -1,0 +1,4 @@
+F:\Repo\TrafficExam\Model\bin\Release\Model.dll
+F:\Repo\TrafficExam\Model\bin\Release\Model.pdb
+F:\Repo\TrafficExam\Model\obj\Release\Model.dll
+F:\Repo\TrafficExam\Model\obj\Release\Model.pdb

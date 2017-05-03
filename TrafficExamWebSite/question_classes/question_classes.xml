@@ -7,17 +7,7 @@
   </class>
   <class>
     <id>2</id>
-    <name>科目三</name>
-    <reference>False</reference>
-  </class>
-  <class>
-    <id>3</id>
-    <name>科目三</name>
-    <reference>False</reference>
-  </class>
-  <class>
-    <id>5</id>
-    <name>科目三</name>
+    <name>fgfg</name>
     <reference>False</reference>
   </class>
 </classes>

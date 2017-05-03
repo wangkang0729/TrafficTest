@@ -1,4 +1,5 @@
-﻿using Model;
+﻿using log4net;
+using Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -18,6 +19,7 @@ namespace DAL
         private List<QuestionClass> questionClasses;
         public string exceptionMessage;
         private string questionClassXmlPath;
+        private static log4net.ILog logger = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         public QuestionClassDAL()
         {
@@ -29,6 +31,7 @@ namespace DAL
 
         public void addClass(string className)
         {
+            //loadXmlDocument();
             if (xml != null)
             {
                 XmlNode classList = xml.SelectSingleNode("/classes");
@@ -47,10 +50,13 @@ namespace DAL
                 classList.AppendChild(cla);
                 xml.Save(questionClassXmlPath);
             }
+
+            logger.Info("test info");
         }
 
         public void deleteClass(string classID)
         {
+            //loadXmlDocument();
             if (xml != null)
             {
                 XmlNodeList nodelist = xml.SelectSingleNode("/classes").ChildNodes;
@@ -65,6 +71,7 @@ namespace DAL
                 }
                 xml.Save(questionClassXmlPath);
             }
+            
         }
 
         public bool checkIsReference(string classID)
@@ -128,6 +135,8 @@ namespace DAL
 
         public List<QuestionClass> loadAllClasses()
         {
+            loadXmlDocument();
+
             List<QuestionClass> questionClassesList = new List<QuestionClass>();
 
             if (xml != null)

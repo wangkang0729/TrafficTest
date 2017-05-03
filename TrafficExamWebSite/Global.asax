@@ -2,11 +2,16 @@
 
 <script runat="server">
 
+    private static BLL.LoadController loadController = new BLL.LoadController();
+    private static log4net.ILog logger = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
     
     void Application_Start(object sender, EventArgs e) 
     {
         // Code that runs on application startup
-        
+        //int i = 3;
+        //Application["class"] = 0;
+        Application["class"] = (List<Model.QuestionClass>)loadController.load("class");
+        logger.Info("class load");
     }
     
     void Application_End(object sender, EventArgs e) 
